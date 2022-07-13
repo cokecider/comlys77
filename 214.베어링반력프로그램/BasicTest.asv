@@ -1,7 +1,0 @@
-    x=-4:5;
-    y=data_fil;%Sine + noise
-    tic;
-    [SineP]=sineFit(x,y) %Offset, amplitude, frquency, phase, MSE
-    toc
-%uncomment following line if you want to save y=f(x) and run it sineFitDemo
-% save('xy.mat','x','y');
